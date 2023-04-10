@@ -24,7 +24,7 @@
         }
     num1.addEventListener("keyup", function(e){
         let str = (num1.value).replace(/\D/g,"");
-        e.target.value=str
+        e.target.value=str;
     })
 
     });  
