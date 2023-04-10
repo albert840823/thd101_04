@@ -143,7 +143,7 @@ article.article>div>ul{
  }
 
  article.article>div>ul>li{
-    outline: 1px solid rgb(128,79,35,.2);
+    border: 1px solid rgb(128,79,35,.2);
     background-color: #fff;
     flex-basis:300px;
     text-align: center;
@@ -704,7 +704,7 @@ article.article>div.about>p>b{
 
     article.adown>div.backimg>ul.four>li.click{
         flex-shrink: 0;
-        
+        flex-grow: 1;
         /* filter: grayscale(0); */
         /* transition: .3s; */
         

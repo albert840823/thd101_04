@@ -334,6 +334,18 @@ bottom: 0;
     font-size: 20px;
     /* outline: 1px solid red; */
 }
+
+#cart > article>div.block>div.three{
+    /* outline: 1px solid red; */
+    display: flex;
+    /* height: 100%; */
+}
+#cart > article>div.block>div.three>input{
+    width: 50%;
+    height: 20px;
+    margin-left: 10px;
+    
+}
   
   
     }

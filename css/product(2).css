@@ -666,7 +666,7 @@ ul#scroll_list>li>a>span{
     margin-top: 50px;
     transform: rotate(0deg);
    
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 .dashed{
