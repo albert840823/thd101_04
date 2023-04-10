@@ -162,7 +162,7 @@ article.main>div.menu>div.menu_main>ul{
  }
 
  article.main>div.menu>div.menu_main>ul>li{
-    outline: 1px solid rgb(128,79,35,.2);
+    border: 1px solid rgb(128,79,35,.2);
     background-color: #fff;
     width: 250px;
     text-align: center;
