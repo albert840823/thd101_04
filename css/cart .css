@@ -1,0 +1,339 @@
+#cart{
+    outline: 1px solid red;
+    
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(0, 0%, 0%,.6);
+    z-index: 10000000;
+    font-family: 'Medium';
+}
+.none{
+    /* display: none; */
+}
+
+    /* 元素 article 置中及基本樣式 */
+#cart > article{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+#cart > article>div.block{
+    background-color: white;
+    width: 30%;
+    box-shadow: 0 0 10px rgb(50, 50, 50);
+    position: absolute;
+    top:0;
+    right: 0;
+    height: 100%;
+}
+
+
+#cart> article>div.block>div.one{
+    /* outline: 1px solid red; */
+    /* width: 100%; */
+    margin-bottom: 20px;
+    position: relative;
+    top: 20px;
+}
+
+#cart> article>div.block>div.one>h2{
+    /* outline: 1px solid red; */
+    color: rgb;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid rgb(128,79,35);
+    text-align: center;
+
+}
+
+#cart > article>div.block>div.one>button{
+    border: none;
+    display: block;
+    background-color: white;
+    font-size: 25px;
+    position: absolute;
+    top: -15px;
+    right: 20px;
+}
+
+#cart > article>div.block>div.two{
+    /* outline: 1px solid red; */
+    text-align: none;
+    width: 100%;
+    padding-top: 20px;
+    height: 60%;
+}
+
+#cart > article>div.block>div.two>ul{
+    /* outline: 1px solid blue; */
+    height: 100%;
+    overflow: auto;
+    padding-bottom: 0;
+    
+}
+#cart > article>div.block>div.two>ul>li{
+    outline: 1px solid lightgray;
+    position: relative;
+    margin: 10px 0;
+    padding: 10px 10px;
+    transition: 1s;
+    opacity: 1;
+    /* height: 90px; */
+}
+
+#cart > article>div.block>div.two>ul>li.off{
+    opacity: 0;
+}
+
+#cart > article>div.block>div.two>ul>li>img{
+    margin-right: 10px;
+    width: 200px;
+    float: left;
+    left: 0;
+    float: left;
+}
+#cart > article>div.block>div.two>ul>li>h3{
+text-align: left;
+font-size: 25px;
+font-weight: bold;
+/* outline: 1px solid red; */
+}
+
+#cart > article>div.block>div.two>ul>li>p{
+    /* outline: 1px solid red; */
+    display: block;
+    width: 100% ;
+    font-size: 13px;
+    text-align: left;
+    padding-top: 5px;
+}
+
+#cart > article>div.block>div.two>ul>li>p.p{
+    width: 70%;
+    height: 10%;
+    font-size: 6px;
+    padding-left: 20%;
+    
+    /* outline: 1px solid red; */
+
+}
+
+#cart > article>div.block>div.two>ul>li>h5{
+    text-align: right;
+    padding-right: 70px;
+    padding-top: 5px;
+    font-size: 20px;
+    /* outline: 1px solid red; */
+}
+
+#cart > article>div.block>div.two>ul>li>.cart_num{
+    padding-top: 10px;
+    /* padding-left: 20%; */
+    /* padding-bottom: 10px; */
+    /* outline: 1px solid red; */
+    width: 100%;   
+    clear: both;
+    
+}
+
+#cart > article>div.block>div.two>ul>li>.cart_num>input{
+/* outline: 1px solid red; */
+text-align: center;
+/* border: none; */
+border: 1px solid lightgray;
+width: 75%;
+}
+#cart > article>div.block>div.two>ul>li>.cart_num>button{
+    margin: 0;
+    border: none;
+}
+#cart > article>div.block>div.two>ul>li>span{
+    /* outline: 1px solid blue; */
+    background-color: red;
+    display: block;
+    height: 100%;
+    width: 8%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    z-index: 100000;
+}
+
+#cart > article>div.block>div.two>ul>li>span>i{
+   /* outline: 1px solid blue; */
+   text-align: center;
+   color: white;
+   font-size: 20px;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#cart > article>div.block>div.three{
+    /* outline: 1px solid red; */
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    height: 100px;
+    bottom: 10%;
+}
+
+#cart > article>div.block>div.three>input{
+    width: 250px;
+    height: 20px;
+    
+}
+
+#cart > article>div.block>div.three>button{
+    background-color: rgb(215,51,1);
+    color: white;
+    border: none;
+    position: absolute;
+    right: 10px;
+    /* border-radius: 5px; */
+    height: 25px;
+}
+#cart > article>div.block>div.three>p{
+    position: absolute;
+    /* margin-top: 40px; */
+    text-align: left;
+    /* float: left; */
+    height: 30px;
+    width: 100%;
+    /* outline: 1px solid blue; */
+    top: 40%;
+    left: 3%;
+}
+
+#cart > article>div.block>div.three>span+p{
+    top:60% ;
+    left: 3%;
+}
+
+
+
+#cart > article>div.block>div.three>span.pro{
+    position: absolute;
+    /* margin-top: 40px; */
+    text-align: right;
+    /* float: left; */
+    height: 30px;
+    width: 100%;
+    /* outline: 1px solid blue; */
+    top: 40%;
+    right: 3%;
+}
+#cart > article>div.block>div.three>span.pro2{
+    position: absolute;
+    /* margin-top: 40px; */
+    text-align: right;
+    /* float: left; */
+    height: 30px;
+    width: 100%;
+    right: 3%;
+    top:60% ;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#cart > article>div.block>div.fur{
+    /* outline: 1px solid red; */
+    position: absolute;
+    /* top: 14%; */
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    padding: 10px 0 0;
+    border-top: 2px solid rgb(128,79,35);
+}
+#cart > article>div.block>div.fur>p:first-child{
+/* float: left; */
+display: block;
+/* outline: 1px solid red; */
+width: 40%;
+font-size: 23px;
+font-weight: bold;
+/* margin-left: 20px; */
+}
+#cart > article>div.block>div.fur>p:nth-child(2){
+/* float: right; */
+/* outline: 1px solid blue; */
+width: 40%;
+display: block;
+text-align: right;
+font-size: 23px;
+font-weight: bold;
+}
+
+#cart > article>div.block>div.fur>button{
+    display: block;
+    width: 80%;
+    height: 30px;
+    margin: 10px auto;
+    background-color: rgb(128,79,35);
+    color: white;
+    /* outline: 1px solid red; */
+    letter-spacing: 35px;
+    padding-left: 40px;
+    border-radius: 5px;
+    /* text-align: center; */
+/* position: absolute; */
+bottom: 0;
+}
+
+@media screen and (max-width:821px ) {
+
+    #cart > article>div.block{
+        width: 85%;
+        height: 100%;
+    }
+
+    #cart > article>div.block>div.two>ul>li{
+        margin: 10px 0;
+        padding: 20px 10px;
+        /* height: 15%; */
+    }
+    
+    #cart > article>div.block>div.two>ul>li>img{
+        /* margin-right: 10px; */
+        width: 150px;
+        
+    }
+
+    #cart > article>div.block>div.two>ul>li>h3{
+        font-size: 18px;
+       
+        }
+
+    #cart > article>div.block>div.two>ul>li>h5{
+    /* text-align: right; */
+    /* padding-right: 60px; */
+    /* padding-top: 20px; */
+    font-size: 20px;
+    /* outline: 1px solid red; */
+}
+  
+  
+    }

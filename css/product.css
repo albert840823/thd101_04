@@ -1,0 +1,324 @@
+body>article.main {
+    /* outline: 1px solid red; */
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+article>div.banner{
+    background-image: url(../img/pexels-elle-hughes-1660027.jpg);
+    background-size: cover;
+    background-position: -802px 10px;
+    opacity: 0;
+    width: 800px;
+    height: 640px;
+    border-radius: 50%;
+    /* box-shadow: 3px 3px 5px; */
+    position: relative;
+    left: -170px;
+    top: -220px;
+   display:flex;
+    overflow: hidden;
+}
+
+article>div.banner>div{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0));
+    position: absolute;
+    width: 940px;
+    height: 200px;
+    /* outline: 1px solid red; */
+    top: 220px;
+    left: -180px;
+    padding:20px 0  0 360px;
+}
+
+article>div.banner>div>h2{
+    text-shadow: 2px 2px 10px black;
+    font-size: 60px;
+    font-family: Abhaya Libre Medium;
+    display: block;
+    text-align: left;
+    padding: 15px 10px 0;
+    color: rgb(255, 255, 255);
+    letter-spacing: 10px;
+    /* font-weight: bold; */
+}
+
+article>div.banner>div>h3{
+    text-shadow: 2px 2px 10px gray;
+    font-size: 40px;
+    font-family: Abhaya Libre Medium;
+    display: block;
+    text-align: left;
+    padding: 5px 10px 15px;
+    color: red;
+    letter-spacing: 5px;
+}
+
+/* -------------------------------------------------------------- */
+article>div.menu{
+    /* background-color: red; */
+    display: flex;
+    width: 85%;
+    /* left:255px; */
+    top: 300px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    justify-content: center;
+    animation: a1 1s linear .7s 1 normal forwards;
+    opacity: 0;
+}
+
+@keyframes a1 {
+    0%{opacity: 0; transform: translateY(70px)}
+    100%{opacity: 1;}
+    
+}
+
+article>div.menu>div{
+    transition: .3s;
+    /* outline: 1px solid red; */
+
+}
+
+article>div.menu>div>a{
+    padding: 30px;
+    /* outline: 1px solid red; */
+    display: block;
+    height: 100%;
+    /* width: 600px; */
+    text-decoration: none;
+    text-align: left;
+    margin: 0 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 3px darkgray;
+    border-bottom: 3px solid rgb(247,140,107,.5);
+    transition: .3s;
+    
+}
+
+article>div.menu>div>a>img{
+    /* background-image: url(../img/pexels-ready-made-3851005.jpg); */
+    background-size: cover;
+    background-position: left;
+    width: 400px;
+    /* margin-top: 300px; */
+    /* height: 520px; */
+    margin: 0 auto;
+    
+}
+
+article>div.menu>div:hover{
+    transform: scale(1.1);
+    transform:rotate(180);
+}
+
+article>div.menu>div>a:hover{
+    border-bottom: 6px solid rgb(215,51,1);
+    border-right:  6px solid rgb(215,51,1);
+}
+
+article>div.menu>div>a>h3{
+    font-size: 24px;
+    padding: 40px 20px 20px;
+    color: rgb(128,79,35);
+    font-weight: bold;
+}
+
+article>div.menu>div>a>p{
+    font-size: 14px;
+    padding: 0 20px 10px;
+    color: rgb(128,79,35);
+}
+/* ---------------------------------------------------------- */
+.down{
+    /* background-color: red; */
+    /* clear: both; */
+    display: block;
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 80px;
+    /* outline: 1px solid red; */
+}
+
+
+.down>div.cut{
+    /* outline: 1px solid blue; */
+    height: 410px;
+    width: 800px;
+    float:left;
+    position: absolute;
+    overflow: hidden;
+    top: 50px;
+    /* left: 80px; */
+
+
+}
+.down>div.cut>img{   
+    bottom: 60px;
+    width: 400px;
+    position: absolute;
+    top:60px;
+}
+
+
+.down>div.botm{
+    /* outline: 1px solid red; */
+    border-radius: 20px;
+    width: 990px;
+    height: 200px;
+    margin: 180px auto 30px;  
+    background-color: rgb(247,140,107);
+}
+
+.down>div.botm>h3{
+width: 500px;
+display: block;
+font-size: 30px;
+margin: 0 auto;
+text-align: center;
+padding: 15px 0 10px;
+font-weight: bold;
+color: white;
+}
+
+.down>div.botm>ul{
+    /* outline: 1px solid red; */
+    margin: 0 auto;
+    width: 500px;
+    text-align: left;
+    padding-left: 413px;
+    list-style: order;
+}
+
+.down>div.botm>ul>li{
+    padding: 8px;
+    color: white;
+}
+
+@media screen and (max-width:821px) {
+    article{
+        height: 100%;
+    }
+    article>div.menu{
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        /* top: -500PX; */
+        position:initial;
+        justify-content: center;
+        animation: a1 1s linear .7s 1 normal forwards;
+        opacity: 0;
+        padding-top: 120px;
+    }
+
+    article>div.banner>div>h2{
+        font-size: 30px;
+    }
+    
+    article>div.banner>div>h3{
+        font-size: 20px;
+    }
+    article>div.banner{
+        /* background-image: url(../img/pexels-elle-hughes-1660027.jpg); */
+        background-size: cover;
+        background-position: center;
+        opacity: 0;
+        width: 100%;
+        height: 400px;
+        border-radius: 50%;
+        /* box-shadow: 3px 3px 5px; */
+        position: absolute;
+        left: -150px;
+        top: -150px;
+       display:flex;
+        overflow: hidden;
+        z-index: 0;
+    }
+
+    article>div.menu>div>a{
+        margin-bottom: 40px;
+    }
+    article>div.menu>div>a>img{
+        width: 100%;
+        
+    }
+/* ----------------------------------- */
+.down{
+    /* background-color: red; */
+    /* clear: both; */
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 0px;
+    /* outline: 1px solid red; */
+    /* top: 200px; */
+}
+
+
+.down>div.cut{
+    /* outline: 1px solid blue; */
+    height: 200px;
+    width:80%;
+    float:left;
+    position: absolute;
+    overflow: hidden;
+    top: -180px;
+    margin-top: -20px;
+    left: 20px;
+    /* left: 80px; */
+
+
+}
+.down>div.cut>img{   
+    bottom: 60px;
+    width: 250px;
+    position: absolute;
+    /* top:60px; */
+}
+
+
+.down>div.botm{
+    /* outline: 1px solid red; */
+    border-radius: 20px;
+    /* width: 990px; */
+    height: 200px;
+    width: 100%;
+    margin: 120px auto 30px;  
+    /* background-color: rgb(247,140,107); */
+}
+
+.down>div.botm>h3{
+width: 100%;
+display: block;
+font-size: 20px;
+margin: 0;
+text-align: center;
+padding: 15px 0 10px;
+font-weight: bold;
+color: white;
+}
+
+.down>div.botm>ul{
+    /* outline: 1px solid red; */
+    margin: 0 auto;
+    width: 80%;
+    text-align: left;
+    padding-left: 20px;
+    list-style: order;
+    font-size: 13px;
+}
+
+.down>div.botm>ul>li{
+    padding: 10px;
+    width: 100%;
+
+}
+
+}       

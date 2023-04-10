@@ -1,0 +1,791 @@
+article.main {
+    display: block;
+    /* outline: 1px solid red; */
+    /* width: 1400px; */
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+article.main>div.menu>a{
+    position: relative;
+    text-decoration: none;
+    display: block;
+    font-size: 30px;
+    width: 150px;
+    margin-left: auto;
+    top:-80px;
+    font-weight: bold;
+    color: rgb(128,79,35);
+    transition: .5s;
+    padding-top: 60px;
+    /* outline: 1px solid red; */
+    right: 40px;
+}
+
+article.main>div.menu>a>i{
+    position: absolute;
+    display: block;
+    width: 200px;
+    right: 0;
+}
+
+article.main>div.menu>a:hover{
+    transform: translate(20px);
+    
+}
+
+
+article>div.banner{
+    background-image: url(../img/pexels-leeloo-thefirst-5769377.jpg);
+    background-size: cover;
+    background-position: -802px 10px;
+    opacity: 0;
+    width: 800px;
+    height: 640px;
+    border-radius: 50%;
+    /* outline: 1px solid red; */
+    /* box-shadow: 3px 3px 5px; */
+    position: relative;
+    left: -170px;
+    top: -220px;
+    display:flex;
+    overflow: hidden;
+    /* float: left; */
+}
+
+
+
+
+article>div.banner>div{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0));
+    position: absolute;
+    width: 940px;
+    height: 200px;
+    /* outline: 1px solid red; */
+    top: 220px;
+    left: -180px;
+    padding:20px 0  0 360px;
+}
+
+article>div.banner>div>h2{
+    text-shadow: 2px 2px 10px black;
+    font-size: 60px;
+    font-family: Medium;
+    display: block;
+    text-align: left;
+    padding: 15px 10px 0;
+    color: rgb(255, 255, 255);
+    letter-spacing: 10px;
+    /* font-weight: bold; */
+}
+
+article>div.banner>div>h3{
+    text-shadow: 2px 2px 10px gray;
+    font-size: 40px;
+    font-family: Abhaya Libre Medium;
+    display: block;
+    text-align: left;
+    padding: 20px 0 50px  15px;
+    color: red;
+    letter-spacing: 5px;
+}
+
+
+/*------------------------------------------------------  */
+div.title{
+    /* background-color: yellow; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+div.title>span{
+    background: linear-gradient(to left, rgb(128,79,35,0) 10%, rgb(128,79,35)100%);
+    margin: 0 20px;
+    /* outline: 1px solid black; */
+    display: block;
+    height: 5px;
+    width: 200px;
+}
+div.title>span:first-child{
+    background: linear-gradient(to right,  rgb(128,79,35,0) 10%, rgb(128,79,35)100%);
+}
+
+div.title>h4{
+    font-size: 3vmin;
+    /* color:rgb(215,51,1) ; */
+    font-weight: bold;
+    
+}
+
+div.title>h4+p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-indent: 1em;
+}
+
+/*-----------------------------------------------------------  */
+article.main>div.menu{
+    /* background-color: yellow; */
+    width: 100%;
+    position: relative;
+    margin-top: -800px;
+    /* float: left; */
+    
+}
+article.main>div.menu>div.menu_main{
+    /* outline: 1px solid red; */
+    width: 100%;
+    margin-bottom: 80px;
+    animation: a1 1s linear .7s 1 normal forwards;
+    opacity: 0;
+    
+    /* vertical-align: center; */
+}
+
+@keyframes a1{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+
+article.main>div.menu>div.menu_main>ul{
+    width: 85% ;
+    display: flex;
+    margin: 20px auto;
+    /* outline: 1px solid red; */
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+ }
+
+ article.main>div.menu>div.menu_main>ul>li{
+    outline: 1px solid rgb(128,79,35,.2);
+    background-color: #fff;
+    width: 250px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px darkgray;
+    position: relative;
+    /* outline: 1px solid blue; */
+    align-content: center;
+ }
+
+
+
+article.main>div.menu>div.menu_main>ul>li>div.photo{
+    
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/pexels-nastyasensei-1199562.jpg);
+    display: block;
+    background-position: center;
+    background-size: cover;
+}
+
+article.main>div.menu>div.ma1>ul>li:nth-child(2)>div.photo{ background-image: url(../img/rice.jpg);}
+article.main>div.menu>div.ma1>ul>li:nth-child(3)>div.photo{background-image: url(../img/0.png);}
+/* --------------------------------------------------- */
+article.main>div.menu>div.ma2>ul>li:nth-child(1)>div.photo{background-image: url(../img/1.jpg);}
+article.main>div.menu>div.ma2>ul>li:nth-child(2)>div.photo{background-image: url(../img/2.jpg);}
+article.main>div.menu>div.ma2>ul>li:nth-child(3)>div.photo{background-image: url(../img/3.jpg);}
+article.main>div.menu>div.ma2>ul>li:nth-child(4)>div.photo{background-image: url(../img/4.jpg);}
+article.main>div.menu>div.ma2>ul>li:nth-child(5)>div.photo{background-image: url(../img/5.png);}
+article.main>div.menu>div.ma2>ul>li:nth-child(6)>div.photo{background-image: url(../img/6.jpg);}
+article.main>div.menu>div.ma2>ul>li:nth-child(7)>div.photo{background-image: url(../img/7.jpg);}
+article.main>div.menu>div.ma2>ul>li:nth-child(8)>div.photo{background-image: url(../img/8.jpg);}
+article.main>div.menu>div.ma3>ul>li:nth-child(1)>div.photo{background-image: url(../img/9.jpg);}
+article.main>div.menu>div.ma3>ul>li:nth-child(2)>div.photo{background-image: url(../img/11.jpeg);}
+article.main>div.menu>div.ma3>ul>li:nth-child(3)>div.photo{background-image: url(../img/12.jpeg);}
+article.main>div.menu>div.ma3>ul>li:nth-child(4)>div.photo{background-image: url(../img/13.jpg);}
+article.main>div.menu>div.ma4>ul>li:nth-child(1)>div.photo{background-image: url(../img/14.jpg);}
+article.main>div.menu>div.ma4>ul>li:nth-child(2)>div.photo{background-image: url(../img/15.jpg);}
+article.main>div.menu>div.ma4>ul>li:nth-child(3)>div.photo{background-image: url(../img/16.jpg);}
+article.main>div.menu>div.ma4>ul>li:nth-child(4)>div.photo{background-image: url(../img/17.jpg);}
+article.main>div.menu>div.ma5>ul>li:nth-child(1)>div.photo{background-image: url(../img/18.jpg);}
+article.main>div.menu>div.ma5>ul>li:nth-child(2)>div.photo{background-image: url(../img/19.png);}
+article.main>div.menu>div.ma5>ul>li:nth-child(3)>div.photo{background-image: url(../img/20.jpg);}
+article.main>div.menu>div.ma5>ul>li:nth-child(4)>div.photo{background-image: url(../img/21.jpg);}
+
+
+article.main>div.menu>div.menu_main>ul>li>div.main{
+    /* outline: 1px solid red; */
+    background-color: rgba(255, 255, 255, 0.533);
+    /* padding: 10px 20px; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 52px);   
+    opacity: 1;
+    filter: blur(0px);
+    transition: all .5s ease-in-out;
+    text-shadow: 1px 1px 5px rgb(128, 128, 128,.5);
+}
+
+article.main>div.menu>div.menu_main>ul>li>div.main:hover{
+    opacity: 0;
+    filter: blur(20px);
+    
+}
+
+
+
+article.main>div.menu>div.menu_main>ul>li>div.main>h3{
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+    font-size: 40px;
+    /* background-color: red; */
+    top: 0;
+    right: 0;
+    left: 65px;
+    line-height: 100px;
+    position: absolute;
+    -webkit-writing-mode: vertical-lr; /*把文字轉成直式*/
+    margin: 0 auto;
+    height: 100%;
+    
+
+}
+
+article.main>div.menu>div.menu_main>ul>li>div.prductfoot{
+    background-color: rgb(128,79,35,.2);
+    width: 100%;
+    /* height: 60px; */
+    display: flex;
+    
+    /* align-content: center; */
+    flex-wrap: wrap;
+    justify-content: center;
+    /* padding: 0 20px 0 ; */
+    /* flex-direction: column; */
+    padding: 15px 0 30px;
+    margin-bottom: -15px;
+    
+}
+
+article.main>div.menu>div.menu_main>button{
+    display: block;
+    width: 50%;
+    height: 50px;
+    margin: 50px auto 200px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(128,79,35);
+    color: white;
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+
+article.main>div.menu>div.menu_main>ul>li>div.prductfoot>input.check{
+    border: none;
+    width: 20px;
+    margin-right: 8px;
+    
+}
+
+article.main>div.menu>div.menu_main>ul>li>div.prductfoot>input.radio{
+    border: none;
+    width: 20px;
+    margin-right: 8px;
+}
+
+article.main>div.menu>div.menu_main>ul>li>div.prductfoot>input{
+    /* outline: 1px solid blue; */
+    display: block;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    /* margin: 15px 0 5px; */
+    border: none;
+    color: rgb(128,79,35);
+}
+
+article.main>div.menu>div.menu_main>ul>li>div.prductfoot>button{
+    /* background-color: yellow; */
+    height: 22px;
+    border: none;
+    color: rgb(128,79,35); 
+}
+
+article.main>div.menu>div.menu_main>ul>li>div.prductfoot>button:first-child{
+    border-radius: 5px 0 0 5px;
+}
+article.main>div.menu>div.menu_main>ul>li>div.prductfoot>input+button{
+    border-radius: 0 5px 5px 0;
+}
+
+
+/* ------------------------------------------------------ */
+.down{
+    /* background-color: red; */
+    /* clear: both; */
+    display: block;
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    /* outline: 1px solid red; */
+}
+
+
+.down>div.cut{
+    /* outline: 1px solid blue; */
+    height: 410px;
+    width: 800px;
+    float:left;
+    position: absolute;
+    overflow: hidden;
+    top: -209px;
+    /* left: 80px; */
+
+
+}
+.down>div.cut>img{   
+    bottom: 60px;
+    width: 400px;
+    position: absolute;
+    top:60px;
+}
+
+
+.down>div.botm{
+    /* outline: 1px solid red; */
+    border-radius: 20px;
+    width: 990px;
+    height: 200px;
+    margin: 180px auto 30px;  
+    background-color: rgb(247,140,107);
+}
+
+.down>div.botm>h3{
+width: 500px;
+display: block;
+font-size: 30px;
+margin: 0 auto;
+text-align: center;
+padding: 15px 0 10px;
+font-weight: bold;
+color: white;
+}
+
+.down>div.botm>ul{
+    /* outline: 1px solid red; */
+    margin: 0 auto;
+    width: 500px;
+    text-align: left;
+    padding-left: 413px;
+    list-style: order;
+}
+
+.down>div.botm>ul>li{
+    padding: 8px;
+    color: white;
+}
+/* ---------------------------------------------------------------- */
+ul#scroll_list{
+    background-color: rgb(128,79,35,0);
+    top:390px;
+    margin-left: 20px;
+    height: 0;
+    position:sticky;
+    z-index: 1000;
+    height: 350px;
+    
+    
+}
+
+ul#scroll_list>li:first-child{
+    margin-top:40px; 
+}
+ul#scroll_list>li{
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 5px;
+    text-align: center;
+    cursor: pointer;
+    /* outline: 1px solid red; */
+}
+
+
+ul#scroll_list>li>a{
+    /* background-color: yellow; */
+    width: 100px;
+    display: block;
+    text-decoration: none;
+    color: rgb(128,79,35);
+    font-size: 20px;
+    font-weight: bold;
+    transition: .7s;
+    border-bottom: 2px solid rgb(128,79,35,0);
+}
+
+/* ul#scroll_list>li>a>span::after{
+    content: "";
+    display: block;
+    background-color: rgb(128,79,35);
+    width: 5px;
+    height: 70px;
+    position: relative;
+    top:0px;
+    z-index: 50;
+} */
+
+ul#scroll_list>li>a>span::before{
+    content: "";
+    display: block;
+    background-color: rgb(128,79,35);
+    width: 5px;
+    height: 50px;
+    margin: 0;
+    position: relative;
+    top: 20px;
+    left: 7px;
+    z-index: 50;
+}
+
+ul#scroll_list>li:last-child>a>span:before{
+    content: "";
+    height: 0px;
+
+}
+
+
+
+
+ul#scroll_list>li>a>span{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid rgb(128,79,35);
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: -8.5px;
+    margin-top: 8px;
+    transition: .7s;
+}
+/* -------------------------------------------------- */
+ul#scroll_list>li.on>a{
+    border-bottom: 2px solid rgb(128,79,35);
+}
+ul#scroll_list>li.on>a>span{
+    background-color: rgb(128,79,35);
+}
+
+@media screen and (max-width:821px) {
+   
+
+    article>div.banner>div>h2{
+        font-size: 5vmin;
+        margin-left: -60px;
+    }
+    
+    article>div.banner>div>h3{
+        font-size: 3vmin;
+        margin-left: -50px;
+        padding-top: 10px;
+    }
+    article>div.banner{
+        width: 100%;
+        height: 4%;
+        position: absolute;
+        left: -120px;
+        top: 270px;
+    }
+
+/* ----------------------------------- */
+article.main>div.menu>div.menu_main {
+    padding-top: 100px;
+}
+
+article.main>div.menu{
+    /* outline: 1px solid red; */
+    padding-bottom: 30PX;
+    padding-top: 450PX;
+    margin-top: -500px;
+ }
+
+ article.main>div.menu>div.menu_main>ul>li>div.main{
+    background-color:rgb(255, 255, 255,0) ;
+    pointer-events: none;
+ }
+
+ article.main>div.menu>div.menu_main>ul>li>div.main>h3{
+    border-radius: 50% 50% 0 0;
+    font-size: 30px;
+    background-color: rgb(247,140,107,.3);
+    position:absolute;
+    left: 0;
+    top: 80%;
+    display: block;
+    line-height: 60px;
+    width: 100%;
+    writing-mode:horizontal-tb ; /*把文字轉成直式*/
+    margin: 0;
+    height: 20%;
+    color: white;
+
+    
+
+}
+
+
+
+ article.main > div.menu > a > i {
+    position: absolute;
+    display: block;
+    width: 30%;
+    right: -150px;
+    top: 80px;
+   
+}
+
+
+
+article.main>div.menu>a {
+/* outline: 1px solid red; */
+    display: INLINE-block;
+    font-size: 20px;
+    width: 100%;
+    top: -10px;
+    right: 171px;
+    z-index: 10000000;
+}
+
+
+
+
+div.title>h4{
+    font-size: 6vmin;
+    width: 27%;
+    text-align: center;
+    padding: 0;
+    /* outline: 1px solid red; */
+}
+
+div.title>h4+p{
+    font-size: 4vmin;
+    letter-spacing: 1px;
+    text-indent: 1em;
+    /* outline: 1px solid red; */
+    width:37%;
+    
+
+}
+
+
+div.title>span{
+    width: 32%;
+}
+
+article.main>div.menu>div.menu_main>ul{
+    width: 85% ;
+ }
+
+ article.main>div.menu>div.menu_main>ul>li{
+    width: 80%;
+ }
+/* -------------------------------------- */
+
+ul#scroll_list{
+    background-color: rgba(255, 255, 255, 0.8);
+    top:88%;
+    margin: 0px 0px;
+    height: 80px;
+    position:sticky;
+    z-index: 1000;
+    /* outline: 1px solid red; */
+    display: flex;
+    /* height: 350px;    */
+}
+
+ul#scroll_list>li:first-child{
+    margin-top:0px; 
+}
+ul#scroll_list>li{
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: center;
+    cursor: pointer;
+    /* outline: 1px solid red; */
+    overflow: hidden;
+    position: relative;
+    z-index: 1000;
+}
+
+
+ul#scroll_list>li>a{
+    /* background-color: yellow; */
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-decoration: none;
+    color: rgb(128,79,35);
+    font-size: 18px;
+    transform: rotate(0deg);
+    padding-top: 3px;
+    margin: 0 auto;
+    position: relative;
+    /* outline: 1px solid rgb(176, 176, 176); */
+    /* -webkit-writing-mode: vertical-lr;  */
+}
+
+ul#scroll_list>li>a>p{
+    display: block;
+    width: 60px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 20px;
+    margin: 0 auto;
+}
+
+ul#scroll_list>li>a>span::before{
+   display: none;   
+}
+
+ul#scroll_list>li>a>span::after{
+    display: none;
+}
+
+
+ul#scroll_list>li>a>span{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid rgb(128,79,35);
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    margin-top: 50px;
+    transform: rotate(0deg);
+   
+    outline: 1px solid red;
+}
+
+.dashed{
+    display: block;
+    border-bottom:3px dashed rgb(128,79,35);
+    width: 90%;
+    height: 5px;
+    position: absolute;
+    bottom: 16px;
+    /* left: 18px; */
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    /* outline: 1px solid red; */
+    z-index:1;  
+}
+
+
+
+
+
+
+ul#scroll_list>li.on>a::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-color: rgb(128,79,35);
+    position: relative;
+    top: -1px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+ul#scroll_list>li.on>a>p{
+    background-color: rgb(128,79,35);
+    display: block;
+    width: 60px;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    margin-top: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+/* -------------------------------------- */
+.down{
+    /* background-color: red; */
+    /* clear: both; */
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 0px;
+    /* outline: 1px solid red; */
+    /* top: 200px; */
+}
+
+
+.down>div.cut{
+    /* outline: 1px solid blue; */
+    height: 200px;
+    width:80%;
+    float:left;
+    position: absolute;
+    overflow: hidden;
+    top: -180px;
+    margin-top: -20px;
+    left: 20px;
+    /* left: 80px; */
+
+
+}
+.down>div.cut>img{   
+    bottom: 60px;
+    width: 250px;
+    position: absolute;
+    /* top:60px; */
+}
+
+
+.down>div.botm{
+    /* outline: 1px solid red; */
+    border-radius: 20px;
+    /* width: 990px; */
+    height: 200px;
+    width: 100%;
+    margin: 120px auto 30px;  
+    /* background-color: rgb(247,140,107); */
+}
+
+.down>div.botm>h3{
+width: 100%;
+display: block;
+font-size: 20px;
+margin: 0;
+text-align: center;
+padding: 15px 0 10px;
+font-weight: bold;
+color: white;
+}
+
+.down>div.botm>ul{
+    /* outline: 1px solid red; */
+    margin: 0 auto;
+    width: 80%;
+    text-align: left;
+    padding-left: 20px;
+    list-style: order;
+    font-size: 13px;
+}
+
+.down>div.botm>ul>li{
+    padding: 10px;
+    width: 100%;
+
+}
+
+}       

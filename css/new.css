@@ -1,0 +1,744 @@
+article {
+    /* outline: 1px solid red; */
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+article>div.top {
+    background-image: url(../img/salmon-poke-bowl-flat-lay-photography.jpg);
+    background-size: cover;
+    background-position: left center;
+    width: 100%;
+    height: calc(100vh - 60px);
+    /* outline: 1px solid red; */
+    position: relative;
+}
+
+article>div.top>div {
+    background-color: rgb(0, 0, 0, .3);
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
+
+article>div.top>div>h1 {
+    /* outline: 1px solid red; */
+    font-size: 40px;
+    font-family: Abhaya Libre Medium;
+    display: block;
+    text-align: left;
+    padding: 15px 10px 0;
+    color: rgb(255, 255, 255);
+    letter-spacing: 10px;
+    /* font-weight: bold; */
+}
+
+article>div.top>div>h3 {
+    font-size: 28px;
+    font-family: Abhaya Libre Medium;
+    display: block;
+    text-align: left;
+    padding: 5px 10px 15px;
+    color: red;
+    letter-spacing: 5px;
+}
+
+
+/* ------------------------內容---------------------------------- */
+
+article>div.g1{
+    position: relative;
+    /* outline: 1px solid red; */
+    display: block;
+    width: 100%;
+    /* width: 6px; */
+    background-color: yellow;
+    top: 40px;
+    
+}
+
+article>.g1>div.btn {
+    position:absolute;
+    /* outline: 1px solid red; */
+    width: 500px;
+    height: 200px;
+    height: 100px;
+    margin: 0 auto;
+    left: 10%;
+    /* top: 700px; */
+    /* left: 130px; */
+    /* margin: 0 auto; */
+    /* left: 80px; */
+    cursor: pointer;
+}
+
+
+article>.g1>div.btn>a {
+    background-color: rgb(253, 220, 210);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    border-radius: 20px 20px 0 0;
+    color: rgb(128, 79, 35);
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    width: 250px;
+    height: 60px;
+    line-height: 60px;
+}
+
+article>.g1>div.btn>a:first-child {
+    z-index: 10;
+    box-shadow: 3px -3px 3px rgba(100, 100, 100, 0.3);
+}
+
+
+article>.g1>div.btn>a:nth-child(2) {
+    left: 230px;
+    z-index: 0;
+    background-color: rgb(247, 140, 107);
+    color: rgb(255, 255, 255);
+    /* transition: .5s; */
+    box-shadow: -3px -3px 3px rgba(100, 100, 100, 0.3);
+}
+/* 
+article>.g1>div.btn>a:nth-child(2):hover {
+    transform: translate(10px);
+    box-shadow: 3px -3px 3px rgb(0, 0, 0, .3);
+} */
+
+
+
+div.new {
+    /* outline: 5px solid red; */
+    background-color: rgb(253, 220, 210);
+    width: 80%;
+    box-shadow: 3px -3px 3px rgb(100, 100, 100, .5);
+    height: 100%;
+    margin: 100px auto 20px;
+    display: none;
+    padding-bottom: 30px;
+}
+
+article>div.new>ul {
+    /* outline: 1px solid red; */
+    /* width: 1200px; */
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+article>div.new>ul>li {
+    /* outline: 1px solid rgb(90, 83, 83); */
+    position: relative;
+    height: 150px;
+    padding: 10px;
+    opacity: 0;
+}
+
+article>div.new>ul>li:first-child {
+    animation: bigTitleA 1s .5s forwards;
+}
+
+article>div.new>ul>li:nth-child(2) {
+    animation: bigTitleA 1s .7s forwards;
+}
+
+article>div.new>ul>li:nth-child(3) {
+    animation: bigTitleA 1s .9s forwards;
+}
+
+article>div.new>ul>li:last-child {
+    animation: bigTitleA 1s 1.1s forwards;
+}
+
+@keyframes bigTitleA {
+    0% {
+        transform: translateX(-170px);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translateX(100px);
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+article>div.new>ul>li>div.time {
+    background-color: white;
+    position: absolute;
+    border: 2px solid rgb(128, 79, 35);
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    padding: 20px 10px;
+    font-family: Medium;
+    z-index: 20;
+    top: 10px;
+    left: 50px;
+}
+
+article>div.new>ul>li>div.time>h3 {
+    font-size: 25px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+article>div.new>ul>li>div.time>h4 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+article>div.new>ul>li>div.time>p {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+article>div.new>ul>li>div.main {
+    position: absolute;
+    width: 70%;
+    height: 120px;
+    background-color: rgb(247, 140, 107);
+    padding-left: 140px;
+    top: 38px;
+    left: 85px;
+
+}
+
+article>div.new>ul>li>div.main>h2 {
+    font-size: 20px;
+    padding: 20px 0;
+    font-weight: 600;
+}
+
+article>div.new>ul>li>div.main>p {
+    padding: 0 90px 0 0;
+    /* width: 500px; */
+}
+
+article>div.new>ul>li:hover>div.main {
+    background-color: rgb(128, 79, 35);
+    color: white;
+    transform: translate(20px);
+    transition: 1s;
+    box-shadow: 3px 3px 3px rgb(0, 0, 0, .3);
+
+}
+
+article>div.new>ul>li:hover>div.time {
+    transform: translate(20px);
+    transition: 1s;
+    box-shadow: 3px 3px 3px rgb(0, 0, 0, .3);
+
+}
+
+
+/* ---------------------------------------------------------------------- */
+/* 
+article.n2{
+    position: absolute;
+    t0
+    width: 80%;
+    margin: 0 auto;
+    outline: 1px solid blue;
+} */
+
+div.new2 {
+    background-color: rgb(247, 140, 107);
+    width: 80%;
+    margin: 100px auto 20px;
+    padding-top: 20px;
+    box-shadow: 3px -3px 3px rgb(100, 100, 100, .5);
+    /* outline: 1px solid blue; */
+    display: none;
+    position: relative;
+    /* top: 100px; */
+    
+}
+
+
+div.new2>ul {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 10px;
+    /* outline: 1px solid blue; */
+    /* margin-top: 20px; */
+}
+
+div.new2>ul>li {
+    /* outline: 1px solid red; */
+    /* display: flex; */
+    padding: 20px;
+    height: 150px;
+    position: relative;
+    border-radius: 50px 0 0 50px;
+    background: linear-gradient(to right, rgb(253, 220, 210), rgb(253, 220, 210, 0));
+    margin: 30px;
+
+    box-shadow: -3px -3px 3px rgba(0, 0, 0, 0.5);
+}
+
+div.new2>ul>li>h4 {
+    /* outline: 1px solid red; */
+    font-size: 13px;
+    letter-spacing: 2px;
+    position: absolute;
+    right: 50px;
+    top: 40px;
+
+}
+
+
+
+div.new2>ul>li>h2 {
+    /* outline: 1px solid red; */
+    font-size: 20px;
+    position: absolute;
+    right: 50px;
+    top: 10px;
+
+}
+
+div.new2>ul>li>h3 {
+    font-size: 23px;
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    font-weight: bold;
+}
+
+div.new2>ul>li>p.main {
+    position: relative;
+    left: 80px;
+    top: 80px;
+    font-size: 15px;
+    width: 600px;
+    line-height: 1.6;
+    word-wrap:break-word
+}
+
+div.new2>ul>li>p.time {
+    /* outline: 1px solid red; */
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    /* top: 100%; */
+}
+
+div.area {
+    width: 80%;
+    margin: 0 auto;
+    /* outline: 1px solid red; */
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+div.area>div {
+    /* outline: 1px solid blue; */
+    margin: 0 auto;
+    width: 800px;
+}
+
+div.area>div>ul {
+    background-color: rgb(255, 255, 255, .5);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+div.area>div>ul>h3 {
+    font-size: 30px;
+    padding-top: 20px;
+    letter-spacing: 2px;
+}
+
+div.area>div>ul>li {
+    padding: 20px;
+    /* outline: 1px solid red; */
+}
+
+div.area>div>ul>li>label {
+    width: 100px;
+    display: inline-block;
+    font-size: 17px;
+}
+
+div.area>div>ul>li:last-child>label {
+    height: 20px;
+    position: relative;
+    top: -145px;
+
+
+}
+
+div.area>div>ul>li>input,
+textarea {
+    margin: 0 auto;
+    width: 600px;
+    resize: none;
+    background-color: none;
+}
+
+div.area>div>ul>li>input {
+    border: 0;
+    border-bottom: 1px solid darkgray;
+    background-color: rgb(255, 255, 255, 0);
+}
+
+div.area>div>ul>li>input:focus,
+div.area>div>ul>li>textarea:focus {
+    outline: 0;
+}
+
+div.area>a {
+    background-color: rgb(128, 79, 35);
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    margin: 10px auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+div.area>a:hover {
+    box-shadow: inset 2px 2px 2px black;
+}
+
+article>div.off {
+    display:block;
+    z-index: 10000;
+}
+
+article>div.g1>div.btn>a.on{
+    z-index: 15000;
+}
+
+
+@media screen and (max-width:822px) {
+
+    article>div.top {
+        background-repeat: no-repeat;
+        background-position: left top;
+        width: 100%;
+        height: calc(100vh - 370px);
+        /* outline: 1px solid red; */
+        position: relative;
+    }
+
+    
+
+    article>div.top>div>h1 {
+        /* outline: 1px solid red; */
+        font-size: 30px;
+        display: block;
+        text-align: left;
+        padding: 20px 10px 0;
+        color: rgb(255, 255, 255);
+        letter-spacing: 6px;
+        /* font-weight: bold; */
+    }
+    
+    article>div.top>div>h3 {
+        font-size: 20px;
+        display: block;
+        text-align: left;
+        padding: 10px 10px 15px;
+        letter-spacing: 3px;
+    }
+    
+    div.new {
+        width: 95%;
+    }
+
+
+    article>.g1>div.btn {
+        /* outline: 1px solid red; */
+        width: 100%;
+        position: absolute;
+        left: 2.5%;
+        overflow: hidden;
+    }
+
+
+    article>.g1>div.btn>a {
+        width: 52%;
+        /* outline: 1px solid red; */
+    } 
+    article>.g1>div.btn>a:nth-child(2) {
+        left: 43%;
+    }
+
+    div.new2 {
+        width: 95%;
+    }
+
+
+/* --------------------------------------------- */
+
+
+article>div.new>ul {
+    /* outline: 1px solid red; */
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+article>div.new>ul>li {
+    /* outline: 1px solid rgb(90, 83, 83); */
+    position: relative;
+    height: 150px;
+    padding: 0px;
+    opacity: 0;
+    padding-bottom:10px ;
+}
+
+article>div.new>ul>li>div.time {
+    position: absolute;
+    border: 2px solid rgb(128, 79, 35);
+    border-radius: 5px;
+    width: 150px;
+    height: 3px;
+    text-align: center;
+    padding: 15px 10px;
+    font-family: Medium;
+    z-index: 20;
+    top: 10px;
+    left: 10px;
+    /* outline: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+}
+article>div.new>ul>li>div.time>h3 {
+    font-size: 18px;
+    padding-bottom: 0px;
+    font-weight: 600;
+    padding-right: 10px;
+    margin-top:-8px ;
+}
+
+article>div.new>ul>li>div.time>h4 {
+    font-size: 20px;
+    font-weight: 400;
+    padding-right: 10px;
+    margin-top:-8px ;
+}
+
+article>div.new>ul>li>div.time>p {
+    font-size: 20px;
+    padding-top: 0px;
+    margin-top: -8px ;
+}
+
+article>div.new>ul>li>div.main {
+    width: 90%;
+    padding-left: 0px;
+    top: 38px;
+    left: 20px;
+}
+
+article>div.new>ul>li>div.main>h2 {
+    font-size: 15px;
+    padding: 20px 10px;
+    font-weight: 600;
+}
+
+article>div.new>ul>li>div.main>p {
+    padding: 0 10px 0;
+    font-size: 13px;
+    margin-top: -12px;
+    width: 80%;
+    /* width: 500px; */
+}
+
+article>div.new>ul>li:hover>div.main {
+    transform: translate(0px);
+}
+
+article>div.new>ul>li:hover>div.time {
+    transform: translate(0px);
+}
+
+/* -------------------------------------------------------- */
+
+
+div.new2>ul {
+    width: 90%;
+    padding-top: 10px;
+    /* outline: 1px solid blue; */
+}
+
+div.new2>ul>li {
+    /* outline: 1px solid red; */
+    padding: 20px ;
+    height: 180px;
+    position: relative;
+    border-radius: 30px 30px 0 0;
+    margin:20px 0px;
+
+    box-shadow: -3px -3px 3px rgba(0, 0, 0, 0.5);
+}
+
+div.new2>ul>li>h4 {
+    /* outline: 1px solid red; */
+    font-size: 13px;
+    letter-spacing: 1px;
+    position: absolute;
+    left: 20px;
+    top: 50px;
+
+}
+
+
+
+div.new2>ul>li>h2 {
+    /* outline: 1px solid red; */
+    font-size: 15px;
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    text-decoration: underline;
+
+}
+
+div.new2>ul>li>h3 {
+    font-size: 23px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-weight: bold;
+}
+
+div.new2>ul>li>p.main {
+    background-color: rgba(255, 255, 255, 0.3);
+    position: relative;
+    left: 0px;
+    top: 60px;
+    font-size: 15px;
+    width: 100%;
+    height: 80px;
+    overflow: auto;
+    outline: 1px solid rgb(6, 6, 6);
+    word-wrap:break-word;
+    padding:5px 10px;
+}
+
+div.new2>ul>li>p.time {
+    /* outline: 1px solid red; */
+    font-size: 13px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    /* top: 100%; */
+}
+
+div.area {
+    width: 95%;
+    margin: 0 auto;
+    /* outline: 1px solid red; */
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+div.area>div {
+    /* outline: 1px solid blue; */
+    margin: 0 auto;
+    width: 100%;
+}
+
+div.area>div>ul {
+    background-color: rgb(255, 255, 255, .5);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+div.area>div>ul>h3 {
+    font-size: 20px;
+    padding-top: 20px;
+    letter-spacing: 2px;
+}
+
+div.area>div>ul>li {
+    padding: 25px;
+    /* outline: 1px solid red; */
+}
+
+div.area>div>ul>li>label {
+    width: 100%;
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+
+div.area>div>ul>li:last-child>label {
+    height: 20px;
+    position: relative;
+    top: 0px;
+
+}
+
+div.area>div>ul>li>input,
+textarea {
+    margin: 0 auto;
+    width: 100%;
+    resize: none;
+    background-color: none;
+}
+
+div.area>div>ul>li>input {
+    border: 0;
+    border-bottom: 1px solid darkgray;
+    background-color: rgb(255, 255, 255, 0);
+}
+
+div.area>div>ul>li>input:focus,
+div.area>div>ul>li>textarea:focus {
+    outline: 0;
+}
+
+div.area>div>ul>li>textarea::placeholder{
+    font-size: 20px;
+    font-family: Medium;
+    color: rgb(128, 79, 35,.4);
+}
+
+div.area>a {
+    background-color: rgb(128, 79, 35);
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    margin: 10px auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+
+
+
+
+
+
+
+}
+
+
