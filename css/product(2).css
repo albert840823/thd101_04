@@ -281,14 +281,14 @@ article.main>div.menu>div.menu_main>button{
     letter-spacing: 10px;
 }
 
-article.main>div.menu>div.menu_main>ul>li>div.prductfoot>input.check{
+/* article.main>div.menu>div.menu_main>ul>li>div.prductfoot>input.check{
     border: none;
     width: 20px;
     margin-right: 8px;
     
-}
+} */
 
-article.main>div.menu>div.menu_main>ul>li>div.prductfoot>input.radio{
+/* article.main>div.menu>div.menu_main>ul>li>div.prductfoot>input.radio{
     border: none;
     width: 20px;
     margin-right: 8px;
@@ -307,7 +307,7 @@ article.main>div.menu>div.menu_main>ul>li>div.prductfoot>input{
 
 article.main>div.menu>div.menu_main>ul>li>div.prductfoot>button{
     /* background-color: yellow; */
-    height: 22px;
+    height: 100%;
     border: none;
     color: rgb(128,79,35); 
 }
@@ -317,7 +317,7 @@ article.main>div.menu>div.menu_main>ul>li>div.prductfoot>button:first-child{
 }
 article.main>div.menu>div.menu_main>ul>li>div.prductfoot>input+button{
     border-radius: 0 5px 5px 0;
-}
+} */
 
 
 /* ------------------------------------------------------ */
@@ -519,7 +519,7 @@ article.main>div.menu{
     background-color: rgb(247,140,107,.3);
     position:absolute;
     left: 0;
-    top: 80%;
+    top: 241px;
     display: block;
     line-height: 60px;
     width: 100%;
@@ -528,7 +528,7 @@ article.main>div.menu{
     height: 20%;
     color: white;
 
-    
+    /* outline: 1px solid red; */
 
 }
 
