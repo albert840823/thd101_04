@@ -150,8 +150,9 @@ font-weight: bold;
 height: 18px;
 text-align: center;
 /* border: none; */
-border: 1px solid lightgray;
+border:none;
 width: 70%;
+background-color: rgba(237, 237, 237, 0.701);
 }
 #cart > article>div.block>div.two>ul>li>.cart_num>button{
     height: 21px;
@@ -350,6 +351,6 @@ bottom: 0;
     margin-left: 10px;
     
 }
-  
+ 
   
     }

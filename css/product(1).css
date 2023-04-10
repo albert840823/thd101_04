@@ -495,7 +495,7 @@ article.main>div.menu>a {
 
 
 .down>div.botm{
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     border-radius: 20px;
     /* width: 990px; */
     height: 200px;
