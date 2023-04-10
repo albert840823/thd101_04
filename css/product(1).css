@@ -443,16 +443,13 @@ article.main>div.menu>div.menu_main>ul{
 
 
 article.main>div.menu>a {
-    position: relative;
-    text-decoration: none;
-    display: INLINE-block;
-    font-size: 20px;
+    font-size: 18px;
     width: 100%;
-    margin-left: auto;
+    /* margin-left: auto; */
     top: 520px;
-    font-weight: bold;
-    color: rgb(128,79,35);
-    transition: .5s;
+    /* font-weight: bold; */
+    /* color: rgb(128,79,35); */
+    /* transition: .5s; */
     padding-top: 60px;
     /* outline: 1px solid red; */
     right: 171px;

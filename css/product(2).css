@@ -518,7 +518,7 @@ article.main>div.menu{
 article.main>div.menu>a {
 /* outline: 1px solid red; */
     display: INLINE-block;
-    font-size: 20px;
+    font-size: 18px;
     width: 100%;
     top: -10px;
     right: 171px;
