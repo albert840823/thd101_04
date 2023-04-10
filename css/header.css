@@ -236,12 +236,18 @@ header.header>div.all>div.top_right>a.fb{
         z-index: 100;
           position: absolute;
           opacity: 0;
+        
     }
+    header.header>div.all>ul.two>li~li{
+        pointer-events: none;
+    }
+
 
     header.header>div.all>ul.two>li.on{
         position:relative;
         top: 0px;
         opacity: 1;
+        pointer-events:fill;
     }
 
     header.header>div.all>ul.two>li>a{

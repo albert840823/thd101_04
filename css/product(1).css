@@ -430,31 +430,28 @@ color: white;
 article.main>div.menu>div.menu_main>ul{
     /* outline: 1px solid red; */
     padding-bottom: 30PX;
-    padding-top: 550PX;
+    padding-top: 590PX;
  }
 
 
  article.main > div.menu > a > i {
     position: absolute;
     display: block;
-    width: 30%;
-    right: -150px;
-    top: 80px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
 }
 
 
 
 article.main>div.menu>a {
     font-size: 18px;
-    width: 100%;
-    /* margin-left: auto; */
-    top: 520px;
-    /* font-weight: bold; */
-    /* color: rgb(128,79,35); */
-    /* transition: .5s; */
-    padding-top: 60px;
+    width: 109px;
+    position: relative;
+    top: 603px;
+    padding-top: 30px;
     /* outline: 1px solid red; */
-    right: 171px;
+    right: 43px;
 }
 
 

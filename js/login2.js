@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded",function(){
+// document.addEventListener("DOMContentLoaded",function(){
     let previous = document.getElementById("submita");
     let lightBox2 = document.getElementById("lightbox2"); 
     let lightBox = document.getElementById("lightbox");
@@ -50,50 +50,50 @@ document.addEventListener("DOMContentLoaded",function(){
             
         // })
     //-------------------------------------------------------------
-    // sublog.addEventListener("click",function(e){
-    //     if(email1.value == "" || !is.email(email1.value)){
-    //         alert("請輸入email 或 email格式錯誤");
-    //         email1.classList.add("error");
-    //         e.preventDefault();
-    //     }
-    //     else{
-    //         email1.classList.remove("error");
-    //     }
+    sublog.addEventListener("click",function(e){
+        if(email1.value == "" || !is.email(email1.value)){
+            alert("請輸入email 或 email格式錯誤");
+            email1.classList.add("error");
+            e.preventDefault();
+        }
+        else{
+            email1.classList.remove("error");
+        }
 
-    //     if(num1.value == num_value.innerHTML){
-    //         num1.classList.remove("error");
-    //     }
-    //     else{
-    //         alert("確認碼錯誤");
-    //         num1.classList.add("error");
-    //         num_value.innerHTML=numnum();
-    //         e.preventDefault();
-    //     }
+        if(num1.value == num_value.innerHTML){
+            num1.classList.remove("error");
+        }
+        else{
+            alert("確認碼錯誤");
+            num1.classList.add("error");
+            num_value.innerHTML=numnum();
+            e.preventDefault();
+        }
 
-    //     if(password1.value == password2.value && (!password1.value == "" && !password2.value == "")){
-    //         password1.classList.remove("error");
-    //         password2.classList.remove("error");
-    //     }
-    //     else{
-    //         alert("密碼確認錯誤");
-    //         password1.classList.add("error");
-    //         password2.classList.add("error");
-    //         e.preventDefault();
-    //     }
-    //     if(!check2.checked){
-    //         alert("請勾選框同意 Blair's Poke 客戶隱私權政策與客戶服務條款");
-    //         check2.nextElementSibling.classList.add("error");
-    //     }
+        if(password1.value == password2.value && (!password1.value == "" && !password2.value == "")){
+            password1.classList.remove("error");
+            password2.classList.remove("error");
+        }
+        else{
+            alert("密碼確認錯誤");
+            password1.classList.add("error");
+            password2.classList.add("error");
+            e.preventDefault();
+        }
+        if(!check2.checked){
+            alert("請勾選框同意 Blair's Poke 客戶隱私權政策與客戶服務條款");
+            check2.nextElementSibling.classList.add("error");
+        }
 
 
-    //     if((!email1.value == "" || is.email(email1.value)) && (password1.value == password2.value && (!password1.value == "" && !password2.value == "")) && num1.value == num_value.innerHTML && check2.checked){
-    //         alert("註冊成功");
-    //     }
-    //     else{
-    //         e.preventDefault()
-    //     }   
+        if((!email1.value == "" || is.email(email1.value)) && (password1.value == password2.value && (!password1.value == "" && !password2.value == "")) && num1.value == num_value.innerHTML && check2.checked){
+            alert("註冊成功");
+        }
+        else{
+            e.preventDefault()
+        }   
 
-    // }); 
+    }); 
 
     // ------------------------------------------------------------
     previous.addEventListener("click",function(){
@@ -105,4 +105,4 @@ document.addEventListener("DOMContentLoaded",function(){
         lightBox2.classList.add("none"); 
     });
 // ---------------------
-});
+// });
