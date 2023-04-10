@@ -210,16 +210,16 @@ article.main>div.menu>div.menu_main>ul>li>div.prductfoot>input{
     /* outline: 1px solid blue; */
     display: block;
     width: 100px;
-    height: 20px;
+    height: 40%;
     text-align: center;
     border: none;
     color: rgb(128,79,35);
     /* margin: 5px; */
 }
 article.main>div.menu>div.menu_main>ul>li>div.prductfoot>button{
-    height: 22px;
+    height: 45%;
     margin :0 0 0 10px;
-    line-height: 20px;
+    /* line-height: 20px; */
     background-color: white;
     border: none;
     color: rgb(128,79,35);
