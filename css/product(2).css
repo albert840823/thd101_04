@@ -479,12 +479,12 @@ ul#scroll_list>li.on>a>span{
    
 
     article>div.banner>div>h2{
-        font-size: 5vmin;
+        font-size: 30px;
         margin-left: -60px;
     }
     
     article>div.banner>div>h3{
-        font-size: 3vmin;
+        font-size: 20px;
         margin-left: -50px;
         padding-top: 10px;
     }
@@ -578,7 +578,7 @@ div.title>h4+p{
 
 
 div.title>span{
-    width: 32%;
+    width: 20%;
 }
 
 article.main>div.menu>div.menu_main>ul{

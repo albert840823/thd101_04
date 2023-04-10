@@ -395,12 +395,12 @@ color: white;
    
 
     article>div.banner>div>h2{
-        font-size: 5vmin;
+        font-size: 30px;
         margin-left: -30px;
     }
     
     article>div.banner>div>h3{
-        font-size: 3vmin;
+        font-size: 20px;
         margin-left: -20px;
         padding-top: 10px;
 }

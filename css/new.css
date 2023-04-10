@@ -467,7 +467,7 @@ article>div.g1>div.btn>a.on{
 
     article>.g1>div.btn {
         /* outline: 1px solid red; */
-        width: 100%;
+        width: 95%;
         position: absolute;
         left: 2.5%;
         overflow: hidden;
@@ -479,7 +479,7 @@ article>div.g1>div.btn>a.on{
         /* outline: 1px solid red; */
     } 
     article>.g1>div.btn>a:nth-child(2) {
-        left: 43%;
+        left: 42%;
     }
 
     div.new2 {

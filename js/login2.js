@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded",function(){
     // console.log(check2);
 
     // ------------------------------------------------------------
+    if(document.documentElement.clientWidth > 823){
     num1.addEventListener("keydown",function(e){
         if(e.which>47 && e.which<58 || e.which == 8){
         }
@@ -26,7 +27,7 @@ document.addEventListener("DOMContentLoaded",function(){
         e.target.value=str
     })
 
-    });    
+    });    }
     // ------------------------------------------------------------
     let h;
     function numnum(){
