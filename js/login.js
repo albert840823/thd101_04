@@ -96,9 +96,70 @@ lightBox2.classList.remove("none");
 });
 
 
+// -------------------------------------------------------------------------------------------------------------------
+
+let close_login2 = document.getElementsByClassName("btn_modal_close")[1];
+// console.log(close_login2)
+
+close_login2.addEventListener("click",function(){
+    lightBox2.classList.add("none");
+})
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// -----------------------------------------------------------------------------------------------------------------------------
 
 let bi = document.getElementsByClassName("bi-list")[0];
 let li = document.getElementsByClassName("two")[0].querySelectorAll("li.lii");
