@@ -210,7 +210,8 @@ article.main>div.menu>div.menu_main>ul>li>div.prductfoot>input:focus{
 article.main>div.menu>div.menu_main>ul>li>div.prductfoot>input{
     /* outline: 1px solid blue; */
     display: block;
-    width: 100px;
+    width: 60%;
+    border-radius: 0px;
     height: 100%;
     text-align: center;
     border: none;
