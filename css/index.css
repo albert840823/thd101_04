@@ -665,12 +665,13 @@ article.article>div.about>p>b{
     
 
     article.adown>div.backimg>div.zoomout{
-        max-width: 50vw;
+        max-width: 200px;
         height: auto;
         position: relative;
         /* height: 390px; */
-        font-size: 1vmax;
+        font-size: 13px;
         padding: 10px;
+        margin: 0;
         /* padding-bottom: 200px; */
         left: 5%;
         top: 20px;
