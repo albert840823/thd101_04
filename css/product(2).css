@@ -516,13 +516,11 @@ article.main>div.menu{
 
 
 article.main>div.menu>a {
-outline: 1px solid red;
 font-size: 18px;
 width: 109px;
 position: relative;
 top: 75px;
 padding-top: 30px;
-outline: 1px solid red;
 right: 43px;
     z-index: 10000000;
 }
