@@ -81,11 +81,12 @@ submit.addEventListener("click",function(e){
         
     }
 
-if((!email.value == "" || is.email(email.value)) && !password.value == "" && num.value == num_list.innerHTML){
+if((!email.value == "" && is.email(email.value)) && (!password.value == "" && num.value == num_list.innerHTML)){
     alert("登入成功");
 }
 else{
     e.preventDefault()
+    num_list.innerHTML=numnum();
 }   
 });
 
@@ -190,11 +191,13 @@ sublog.addEventListener("click",function(e){
     }
 
 
-    if((!email1.value == "" || is.email(email1.value)) && (password1.value == password2.value && (!password1.value == "" && !password2.value == "")) && num1.value == num_value.innerHTML && check2.checked){
+    if((!email1.value == "" && is.email(email1.value)) && (password1.value == password2.value && (!password1.value == "" && !password2.value == "")) && num2.value == num2_random.innerHTML&& check2.checked ){
         alert("註冊成功");
     }
     else{
+        num2_random.innerHTML=numnum();
         e.preventDefault()
+          
     }   
 
 }); 
