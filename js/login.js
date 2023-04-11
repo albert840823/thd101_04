@@ -251,7 +251,14 @@ let li_1 = document.getElementsByClassName("two")[0].querySelectorAll("li.d")[0]
 
 
 
-
+bi.addEventListener("click",function(){
+    for(let n of li2){
+        if(n.classList.contains("on")){
+            n.classList.remove("on");
+        }
+        
+    }
+})
 
 
 
