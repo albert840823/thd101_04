@@ -169,7 +169,7 @@ header.header>div.all>div.top_right>a{
     color: rgb(129,79,35);
     font-size: 35px;
     margin-left: 40px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     height: 100%;
     width: auto;
 }
