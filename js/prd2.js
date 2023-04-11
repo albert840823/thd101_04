@@ -115,43 +115,43 @@ sab.addEventListener("click",function(){
                           });
                   
                           }else{
-                          window.scrollTo({          //官方內建滑動函式
+                          window.scrollTo({      
                               top:block[0].offsetTop -80,
                               behavior:"smooth"
                           });} 
 
     }else{
         alert('請選擇一項飲品');
-        window.scrollTo({          //官方內建滑動函式
-            top:bloo[4].offsetTop +130,
+        window.scrollTo({         
+            top:bloo[4].offsetTop -350,
             behavior:"smooth"
         }); 
     }
     }else{
         alert('請選擇一項醬料');
-        window.scrollTo({          //官方內建滑動函式
-            top:bloo[3].offsetTop +130,
+        window.scrollTo({        
+            top:bloo[3].offsetTop -350,
             behavior:"smooth"
         });
     }
     }else{
         alert('請選擇一項蛋白質');
-        window.scrollTo({          //官方內建滑動函式
-            top:bloo[2].offsetTop +130,
+        window.scrollTo({        
+            top:bloo[2].offsetTop -350,
             behavior:"smooth"
         });
     }
     }else{
         alert('請選擇至少一項佐料');
-        window.scrollTo({          //官方內建滑動函式
-            top:bloo[1].offsetTop +130,
+        window.scrollTo({      
+            top:bloo[1].offsetTop -350,
             behavior:"smooth"
         });   
     }
     }else{
         alert('請選擇一項基底');
-        window.scrollTo({          //官方內建滑動函式
-            top:bloo[0].offsetTop +130,
+        window.scrollTo({          
+            top:bloo[0].offsetTop -350,
             behavior:"smooth"
         });
     };
