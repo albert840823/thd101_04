@@ -169,7 +169,33 @@ header.header>div.all>div.top_right>a{
     color: rgb(129,79,35);
     font-size: 35px;
     margin-left: 40px;
+    outline: 1px solid red;
+    height: 100%;
+    width: auto;
 }
+
+header.header>div.all>div.top_right>a>i+span{
+    height: 15px;
+    width: 15px;
+    background-color: rgba(255, 0, 0, 0.5);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    font-size: 13px;
+    /* outline: 1px solid red; */
+    position: relative;
+    bottom: 65px;
+    left: 80%;
+justify-content: center;
+align-items: center;
+
+}
+
+header.header>div.all>div.top_right>a>i+span.off{
+    display: none;
+}
+
+
 
 header.header>div.all>div.top_right>a:nth-child(2){
     font-size: 18px;

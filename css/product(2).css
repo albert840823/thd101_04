@@ -310,7 +310,7 @@ article.main>div.menu>div.menu_main>ul>li>div.prductfoot>input+button{
     position: absolute;
     overflow: hidden;
     top: -209px;
-    /* left: 80px; */
+    left: 365px;
 
 
 }
@@ -363,7 +363,7 @@ ul#scroll_list{
     height: 0;
     position:sticky;
     z-index: 1000;
-    height: 350px;
+    /* height: 350px; */
     
     
 }
