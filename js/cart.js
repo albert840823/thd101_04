@@ -245,7 +245,7 @@ btn[n].addEventListener("click",function(){
     add();
     rdd();
     // arr.push(n)
-    // va.value = 0;
+    va.value = 0;
 }})};
 
 
