@@ -561,7 +561,7 @@ article.main>div.menu>div.menu_main>ul{
 
 ul#scroll_list{
     background-color: rgba(255, 255, 255, 0.8);
-    top:88%;
+    top:88dvh;
     margin: 0px 0px;
     height: 80px;
     position:sticky;
