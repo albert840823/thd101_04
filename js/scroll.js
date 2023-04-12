@@ -7,8 +7,8 @@ window.addEventListener("scroll", function(){
     for(let n of link){
         n.classList.remove("on");
         for(let n=0;n<block.length;n++){
-        if(block[n].getBoundingClientRect().top < 50 && 
-           block[n].getBoundingClientRect().bottom  > -20 ){
+        if(block[n].getBoundingClientRect().top < 100 && 
+           block[n].getBoundingClientRect().bottom  > 0 ){
             link[n].classList.add("on");
           }}
     }
@@ -26,7 +26,7 @@ window.addEventListener("scroll", function(){
 
         }else{
         window.scrollTo({          //官方內建滑動函式
-            top:block[n].offsetTop -80,
+            top:block[n].offsetTop +200,
             behavior:"smooth"
         });}
         });
