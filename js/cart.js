@@ -375,38 +375,83 @@ sab.addEventListener("click",function(){
 
     }else{
         alert('請選擇一項飲品');
-        window.scrollTo({         
-            top:bloo[4].offsetTop -350,
-            behavior:"smooth"
-        }); 
+        if(window.innerWidth < 872){
+            // console.log("2222");
+            window.scrollTo({        
+              top:block[4].offsetTop - 350,
+              behavior:"smooth"
+              
+          });
+  
+          }else{
+          window.scrollTo({      
+              top:block[4].offsetTop +200,
+              behavior:"smooth"
+          });} 
     }
     }else{
         alert('請選擇一項醬料');
-        window.scrollTo({        
-            top:bloo[3].offsetTop -350,
-            behavior:"smooth"
-        });
+        if(window.innerWidth < 872){
+            // console.log("2222");
+            window.scrollTo({        
+              top:block[3].offsetTop - 350,
+              behavior:"smooth"
+              
+          });
+  
+          }else{
+          window.scrollTo({      
+              top:block[3].offsetTop +200,
+              behavior:"smooth"
+          });} 
     }
     }else{
         alert('請選擇一項蛋白質');
-        window.scrollTo({        
-            top:bloo[2].offsetTop -350,
-            behavior:"smooth"
-        });
+        if(window.innerWidth < 872){
+            // console.log("2222");
+            window.scrollTo({        
+              top:block[2].offsetTop - 350,
+              behavior:"smooth"
+              
+          });
+  
+          }else{
+          window.scrollTo({      
+              top:block[2].offsetTop +200,
+              behavior:"smooth"
+          });} 
     }
     }else{
         alert('請選擇至少一項佐料');
-        window.scrollTo({      
-            top:bloo[1].offsetTop -350,
-            behavior:"smooth"
-        });   
+        if(window.innerWidth < 872){
+            // console.log("2222");
+            window.scrollTo({        
+              top:block[1].offsetTop - 350,
+              behavior:"smooth"
+              
+          });
+  
+          }else{
+          window.scrollTo({      
+              top:block[1].offsetTop +200,
+              behavior:"smooth"
+          });}   
     }
     }else{
         alert('請選擇一項基底');
-        window.scrollTo({          
-            top:bloo[0].offsetTop -350,
-            behavior:"smooth"
-        });
+        if(window.innerWidth < 872){
+            // console.log("2222");
+            window.scrollTo({        
+              top:block[0].offsetTop - 350,
+              behavior:"smooth"
+              
+          });
+  
+          }else{
+          window.scrollTo({      
+              top:block[0].offsetTop +200,
+              behavior:"smooth"
+          });} 
     };
     
 
