@@ -336,9 +336,9 @@ for(n of c4){
 
 
 sab.addEventListener("click",function(){
-    var all = this.closest("div.menu").querySelectorAll("input");
+    // var all = this.closest("div.menu").querySelectorAll("input");
     order();
-    // console.log(free.n2)
+    console.log("test");
     
 
 
